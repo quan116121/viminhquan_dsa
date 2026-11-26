@@ -239,6 +239,8 @@ int main(){
 			    Node *q = search(L, name);
 				if(q != NULL)
 					in(q->infor);
+			    else
+			        printf("Khong tim thay sinh vien.\n")
 				break;
 		    }
 			case 9:
